@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+header {
+	padding-left: 10%;
+}
+
 .row {
 	max-width: 1000px;
 	padding-left: 20px;
@@ -28,5 +32,9 @@
 @media only screen and (min-width: 640px) {
 	.col-4 {
 		width: 33.3%;
+	}
+
+	header {
+		padding-left: 15%;
 	}
 }
