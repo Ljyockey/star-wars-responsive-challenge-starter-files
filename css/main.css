@@ -1,7 +1,26 @@
 body {
 	margin: 0;
+	font-family: "Roboto", sans-serif;
 }
 
 header {
 	background-color: #f7bf0f;
+	padding-top: 5px;
+}
+
+header p {
+	padding-bottom: 20px;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.card {
+	border: 2px solid whitesmoke;
+}
+
+.card h2, .card p {
+	padding-left: 20px;
 }
